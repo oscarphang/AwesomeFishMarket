@@ -13,7 +13,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --config webpack.dev.config.js"
+    "start": "node_modules/.bin/webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --mode production"
   },
   "name": "fish-market",
   "version": "1.0.0",
