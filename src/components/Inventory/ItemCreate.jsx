@@ -35,7 +35,7 @@ export class InventoryDetail extends Component {
         return (
             <div className="fishEdit">
                 <div className="d-flex">
-                    <input type="text" name="name" value={name} onChange={this.onChange} />
+                    <input type="text" name="name" value={name} onChange={this.onChange} placeholder={"Name"} />
                     <input type="number" name="price" value={price} onChange={this.onChange}/>
                     <select className="h-100" name="availability" value={availability} onChange={this.onChange}>
                         <option value={false}>Sold Out!</option>
@@ -43,10 +43,10 @@ export class InventoryDetail extends Component {
                     </select>
                 </div>
                 <div >
-                <textarea className="w-100" name="description" value={description} onChange={this.onChange}></textarea>
+                <textarea className="w-100" name="description" value={description} onChange={this.onChange} placeholder={"Description"}></textarea>
                 </div>
                 <div>
-                <input className="w-100" name="imgPath" type="text" value={imgPath} onChange={this.onChange}/>
+                <input className="w-100" name="imgPath" type="text" value={imgPath} onChange={this.onChange} placeholder={"Image Url"}/>
                 </div>
                 <div>
                 <button className="w-100" onClick={this.handleAdd}>{"+ Add Fish"}</button>
