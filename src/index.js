@@ -7,8 +7,8 @@ import { Container,Row,Col } from 'react-bootstrap';
 import MenuList from "./components/Menu/MenuList.jsx";
 import Pane from './layouts/Pane.jsx';
 import Cart from './components/Cart/Cart.jsx'
-import Inventory from './components/Inventory/Inventory.jsx'
-import ItemCreate from './components/Inventory/ItemCreate.jsx'
+import InventoryPane from './components/Inventory/InventoryPane.jsx'
+import Login from './components/Auth/Login.jsx'
 import ConfirmBox from './layouts/ConfirmBox.jsx';
 import LoadingScreen from './layouts/LoadingScreen.jsx';
 //state
@@ -50,9 +50,8 @@ const App = () => (
         <Cart />
       </Pane>
       <Pane header={"Inventory"}>
-        <div style={{height:30,backgroundColor:"green",width:"100%"}} className="mb-2">auth</div>
-        <Inventory />
-        <ItemCreate/>
+        <Login/>
+        <InventoryPane />
       </Pane>
     </Row>
     <ConfirmBox/>

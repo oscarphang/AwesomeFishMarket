@@ -15,3 +15,4 @@ firebase.initializeApp(config);
 firebase.firestore().settings({});
 
 export default firebase;
+// https://fish-market-9e20a.firebaseapp.com/__/auth/handler
