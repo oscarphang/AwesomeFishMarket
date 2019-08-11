@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --config webpack.dev.config.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production --config webpack.dev.config.js"
   },
   "name": "fish-market",
   "version": "1.0.0",
