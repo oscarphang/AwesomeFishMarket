@@ -9,3 +9,6 @@ this project is a demostration project for
 •	Firebase/Firestore
 
 OAuth has some problem now, so I have disabled it.
+
+demo:
+https://awesome-fish-market.herokuapp.com
