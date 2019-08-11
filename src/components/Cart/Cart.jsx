@@ -31,7 +31,6 @@ export class Cart extends Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state);
     return {
         cartItems:Object.keys(state.firestore.data).length==0?[]:state.firestore.ordered.cartItems
     }

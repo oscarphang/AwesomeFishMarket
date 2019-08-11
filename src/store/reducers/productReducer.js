@@ -21,7 +21,6 @@ export default (state = initialState, { type, payload }) => {
         return { ...state, products:newAProductsAfterAdded }
 
     case EDIT_PRODUCT://payload product obj
-        console.log(payload);
         var newProducts = state.products.map(elem => {
             if(elem.id == payload.id)
             {

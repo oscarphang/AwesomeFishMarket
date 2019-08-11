@@ -32,7 +32,6 @@ export const removeProduct = (id) => {
 export const editProduct = (product) => {
     return (dispatch,getState,{getFirebase,getFirestore})=>{
         const firestore =getFirestore();
-        console.log(product);
         const productRef = firestore.collection('products').doc(product.id);
         productRef.update(product);
     }
