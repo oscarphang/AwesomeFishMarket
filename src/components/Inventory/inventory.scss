@@ -1,0 +1,20 @@
+.fishEdit input,
+.fishEdit textarea,
+.fishEdit select {
+  width: 33.33%;
+  padding: 10px;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+  background: #fff;
+}
+.fishEdit{
+  border: black 1px solid;
+  margin-bottom:2px;
+}

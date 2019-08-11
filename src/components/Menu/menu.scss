@@ -1,0 +1,27 @@
+.isSoldOut {
+    color: #D23;
+    border: 0.5rem double #D23;
+    transform: rotate(-14deg);
+      -webkit-mask-position: 2rem 3rem;
+    font-size: 2rem;  
+  }
+  
+  .stamp {
+    transform: rotate(12deg);
+      color: #D23;
+      font-size: 3rem;
+      font-weight: 700;
+      border: 0.25rem solid #D23;
+      display: inline-block;
+      padding: 0.25rem 1rem;
+      text-transform: uppercase;
+      border-radius: 1rem;
+      font-family: 'Courier';
+      -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+  }
+
+  .menuFish img {
+    width:150px
+  }
